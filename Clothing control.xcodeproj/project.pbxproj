@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C896B9F2688D4E9009C5393 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896B9E2688D4E9009C5393 /* TabsViewController.swift */; };
+		2C896BA72688D649009C5393 /* StuffListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896BA62688D649009C5393 /* StuffListViewViewController.swift */; };
+		2C896BAB2688D669009C5393 /* StuffListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896BAA2688D669009C5393 /* StuffListView.swift */; };
+		2C896BAE2688DBCA009C5393 /* ClotherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896BAD2688DBCA009C5393 /* ClotherModel.swift */; };
+		2C896BB22688DD86009C5393 /* StuffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896BB12688DD86009C5393 /* StuffCell.swift */; };
+		2C896BBD2688E700009C5393 /* ThingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896BBC2688E700009C5393 /* ThingViewController.swift */; };
+		2C896BC12688E721009C5393 /* ThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C896BC02688E721009C5393 /* ThingView.swift */; };
+		2CA9588A268AE34C00A14329 /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA95889268AE34C00A14329 /* UIColor+HEX.swift */; };
 		2CB90C3A2688B52400319519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB90C392688B52400319519 /* AppDelegate.swift */; };
-		2CB90C3C2688B52400319519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB90C3B2688B52400319519 /* SceneDelegate.swift */; };
-		2CB90C3E2688B52400319519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB90C3D2688B52400319519 /* ViewController.swift */; };
-		2CB90C412688B52400319519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB90C3F2688B52400319519 /* Main.storyboard */; };
+		2CB90C3E2688B52400319519 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB90C3D2688B52400319519 /* CategoriesViewController.swift */; };
 		2CB90C432688B52600319519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB90C422688B52600319519 /* Assets.xcassets */; };
 		2CB90C462688B52600319519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB90C442688B52600319519 /* LaunchScreen.storyboard */; };
+		2CB90C582688B80000319519 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB90C572688B80000319519 /* CategoriesView.swift */; };
+		46B42CECAD2235891B7ACA6B /* Pods_Clothing_control.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636718CAE13AC6269910F841 /* Pods_Clothing_control.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C896B9E2688D4E9009C5393 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		2C896BA62688D649009C5393 /* StuffListViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffListViewViewController.swift; sourceTree = "<group>"; };
+		2C896BAA2688D669009C5393 /* StuffListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffListView.swift; sourceTree = "<group>"; };
+		2C896BAD2688DBCA009C5393 /* ClotherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClotherModel.swift; sourceTree = "<group>"; };
+		2C896BB12688DD86009C5393 /* StuffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffCell.swift; sourceTree = "<group>"; };
+		2C896BBC2688E700009C5393 /* ThingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingViewController.swift; sourceTree = "<group>"; };
+		2C896BC02688E721009C5393 /* ThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingView.swift; sourceTree = "<group>"; };
+		2CA95889268AE34C00A14329 /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
 		2CB90C362688B52400319519 /* Clothing control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clothing control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB90C392688B52400319519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CB90C3B2688B52400319519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CB90C3D2688B52400319519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CB90C402688B52400319519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CB90C3D2688B52400319519 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		2CB90C422688B52600319519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB90C452688B52600319519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB90C472688B52600319519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB90C572688B80000319519 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		636718CAE13AC6269910F841 /* Pods_Clothing_control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clothing_control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DD491A634B4C43BC33D038 /* Pods-Clothing control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothing control.debug.xcconfig"; path = "Target Support Files/Pods-Clothing control/Pods-Clothing control.debug.xcconfig"; sourceTree = "<group>"; };
+		6B3D1798C7B1A69E762B5B92 /* Pods-Clothing control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothing control.release.xcconfig"; path = "Target Support Files/Pods-Clothing control/Pods-Clothing control.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B42CECAD2235891B7ACA6B /* Pods_Clothing_control.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C896B9C2688D388009C5393 /* TabsConroller */ = {
+			isa = PBXGroup;
+			children = (
+				2C896B9E2688D4E9009C5393 /* TabsViewController.swift */,
+			);
+			path = TabsConroller;
+			sourceTree = "<group>";
+		};
+		2C896BA22688D60A009C5393 /* StuffList */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BA32688D626009C5393 /* Model */,
+				2C896BA42688D630009C5393 /* View */,
+				2C896BA62688D649009C5393 /* StuffListViewViewController.swift */,
+			);
+			path = StuffList;
+			sourceTree = "<group>";
+		};
+		2C896BA32688D626009C5393 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BAD2688DBCA009C5393 /* ClotherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C896BA42688D630009C5393 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BB02688DD0B009C5393 /* Cell */,
+				2C896BAA2688D669009C5393 /* StuffListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C896BB02688DD0B009C5393 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BB12688DD86009C5393 /* StuffCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2C896BBB2688E679009C5393 /* Thing */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BBF2688E714009C5393 /* View */,
+				2C896BBC2688E700009C5393 /* ThingViewController.swift */,
+			);
+			path = Thing;
+			sourceTree = "<group>";
+		};
+		2C896BBF2688E714009C5393 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BC02688E721009C5393 /* ThingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CA95887268AE31F00A14329 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CA95888268AE33100A14329 /* UIColor */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CA95888268AE33100A14329 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				2CA95889268AE34C00A14329 /* UIColor+HEX.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 		2CB90C2D2688B52400319519 = {
 			isa = PBXGroup;
 			children = (
 				2CB90C382688B52400319519 /* Clothing control */,
 				2CB90C372688B52400319519 /* Products */,
+				DB71853B9FB4759B11B86123 /* Pods */,
+				DAD89F49C0ED4429D04E2E0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +153,67 @@
 		2CB90C382688B52400319519 /* Clothing control */ = {
 			isa = PBXGroup;
 			children = (
+				2CA95887268AE31F00A14329 /* Extensions */,
+				2CB90C532688B76A00319519 /* Modules */,
 				2CB90C392688B52400319519 /* AppDelegate.swift */,
-				2CB90C3B2688B52400319519 /* SceneDelegate.swift */,
-				2CB90C3D2688B52400319519 /* ViewController.swift */,
-				2CB90C3F2688B52400319519 /* Main.storyboard */,
 				2CB90C422688B52600319519 /* Assets.xcassets */,
 				2CB90C442688B52600319519 /* LaunchScreen.storyboard */,
 				2CB90C472688B52600319519 /* Info.plist */,
 			);
 			path = "Clothing control";
+			sourceTree = "<group>";
+		};
+		2CB90C532688B76A00319519 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2C896BBB2688E679009C5393 /* Thing */,
+				2C896BA22688D60A009C5393 /* StuffList */,
+				2C896B9C2688D388009C5393 /* TabsConroller */,
+				2CB90C552688B78900319519 /* Сategories */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2CB90C542688B78000319519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CB90C572688B80000319519 /* CategoriesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CB90C552688B78900319519 /* Сategories */ = {
+			isa = PBXGroup;
+			children = (
+				2CB90C562688B7C700319519 /* Model */,
+				2CB90C542688B78000319519 /* View */,
+				2CB90C3D2688B52400319519 /* CategoriesViewController.swift */,
+			);
+			path = "Сategories";
+			sourceTree = "<group>";
+		};
+		2CB90C562688B7C700319519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAD89F49C0ED4429D04E2E0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				636718CAE13AC6269910F841 /* Pods_Clothing_control.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB71853B9FB4759B11B86123 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67DD491A634B4C43BC33D038 /* Pods-Clothing control.debug.xcconfig */,
+				6B3D1798C7B1A69E762B5B92 /* Pods-Clothing control.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CB90C4A2688B52600319519 /* Build configuration list for PBXNativeTarget "Clothing control" */;
 			buildPhases = (
+				7832B36B2E4A49DFF194A096 /* [CP] Check Pods Manifest.lock */,
 				2CB90C322688B52400319519 /* Sources */,
 				2CB90C332688B52400319519 /* Frameworks */,
 				2CB90C342688B52400319519 /* Resources */,
+				AF33549996073277971E1BCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +277,75 @@
 			files = (
 				2CB90C462688B52600319519 /* LaunchScreen.storyboard in Resources */,
 				2CB90C432688B52600319519 /* Assets.xcassets in Resources */,
-				2CB90C412688B52400319519 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7832B36B2E4A49DFF194A096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clothing control-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF33549996073277971E1BCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clothing control/Pods-Clothing control-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clothing control/Pods-Clothing control-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clothing control/Pods-Clothing control-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CB90C322688B52400319519 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB90C3E2688B52400319519 /* ViewController.swift in Sources */,
+				2C896B9F2688D4E9009C5393 /* TabsViewController.swift in Sources */,
+				2C896BA72688D649009C5393 /* StuffListViewViewController.swift in Sources */,
+				2C896BAB2688D669009C5393 /* StuffListView.swift in Sources */,
+				2C896BC12688E721009C5393 /* ThingView.swift in Sources */,
+				2CA9588A268AE34C00A14329 /* UIColor+HEX.swift in Sources */,
+				2CB90C3E2688B52400319519 /* CategoriesViewController.swift in Sources */,
+				2C896BBD2688E700009C5393 /* ThingViewController.swift in Sources */,
 				2CB90C3A2688B52400319519 /* AppDelegate.swift in Sources */,
-				2CB90C3C2688B52400319519 /* SceneDelegate.swift in Sources */,
+				2C896BAE2688DBCA009C5393 /* ClotherModel.swift in Sources */,
+				2C896BB22688DD86009C5393 /* StuffCell.swift in Sources */,
+				2CB90C582688B80000319519 /* CategoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CB90C3F2688B52400319519 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CB90C402688B52400319519 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2CB90C442688B52600319519 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,11 +475,12 @@
 		};
 		2CB90C4B2688B52600319519 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DD491A634B4C43BC33D038 /* Pods-Clothing control.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N422RJM586;
+				DEVELOPMENT_TEAM = 62K92RJKZZ;
 				INFOPLIST_FILE = "Clothing control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,17 +489,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xak.Clothing-control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2CB90C4C2688B52600319519 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3D1798C7B1A69E762B5B92 /* Pods-Clothing control.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N422RJM586;
+				DEVELOPMENT_TEAM = 62K92RJKZZ;
 				INFOPLIST_FILE = "Clothing control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xak.Clothing-control";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
