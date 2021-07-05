@@ -1,19 +1,3 @@
-import UIKit
-
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: StuffListViewViewController())
-        window?.makeKeyAndVisible()
-        
-        return true
-    }
-
-
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfa291aa94d1d104a0fd5f0a6756366f13d012845ccbffc39da37e6a59fa29ab
+size 681

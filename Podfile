@@ -1,12 +1,3 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
-target 'Clothing control' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for Clothing control
-  pod 'SnapKit'
-  pod 'Kingfisher'
-
-end
+version https://git-lfs.github.com/spec/v1
+oid sha256:895da0c148c11d3b8a7a288f9397cd046fa3e863d528800805498fab29c0f567
+size 306

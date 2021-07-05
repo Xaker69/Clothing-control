@@ -1,29 +1,3 @@
-import UIKit
-import SnapKit
-
-class CategoriesView: UIView {
-
-    var tableView: UITableView = {
-        let view = UITableView()
-        view.tableFooterView = UIView()
-        return view
-    }()
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-        addSubview(tableView)
-        setupConstraints()
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    func setupConstraints() {
-        tableView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9e5d8e5cb3f76a5dd9816ef5c1079b4a662bcd4b19b11e5ca4f68e286026eb2
+size 594

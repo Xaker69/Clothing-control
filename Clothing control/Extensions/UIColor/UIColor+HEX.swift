@@ -1,12 +1,3 @@
-import UIKit
-
-extension UIColor {
-    
-    class func fromHex(hex: Int, alpha: CGFloat = 1.0) -> UIColor {
-        let red = CGFloat((hex & 0xFF0000) >> 16) / 255.0
-        let green = CGFloat((hex & 0xFF00) >> 8) / 255.0
-        let blue = CGFloat((hex & 0xFF)) / 255.0
-        return UIColor(red: red, green: green, blue: blue, alpha: alpha)
-    }
-    
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ae1594353ba57d7684de4003b297e07536c08ea179a56f2a96bdf48496fdb1e
+size 357
